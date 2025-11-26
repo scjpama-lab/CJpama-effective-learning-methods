@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title> 
+    <meta name="author" content="Charles Julian A. Pama">
+    <meta name="description" content="This page is a contact form from CHARLES, it is a way to communicate and give feedback based on our projects and performance in the web.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, layout, extension, homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon/logo1.png">
+    <link rel = "stylesheet" href = "styles/style3.css">
+    <link href="fonts/Anton.css" rel="stylesheet">
+    <link href="fonts/inter.css" rel="stylesheet">
+    <link href="fonts/BBH.css" rel="stylesheet">
+    <link href="fonts/tiktoksans.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript/javascript.js"></script>
+</head>
+    <body>
+    <div id="navbar">
+            <ul>
+                <a class="nv" href="index.html">ARTICLE</a>
+                <a class="nv" href="aboutcharles.html">ABOUT</a>
+                <a class="nv" href="contact_us.html">CONTACT</a>
+            </ul>  
+        </div>
+    <div class="container">
+            <img src="images/logo.png" class="img">
+            <ul class="nav">
+                <a class="navtop" href="index.html">ARTICLE</a>
+                <a class="navtop" href="aboutcharles.html">ABOUT</a>
+                <a class="navtop" href="contact_us.html">CONTACT</a>
+            </ul>
+            <div>
+                <img class="img2" src="images/contatc2.png">
+                <div class="card" role="main">
+                    <form action="post.html">
+                        <div class="content">
+                            <h1 class="contact">Contact Us</h1>
+                                <label class = fname> First Name: </label>
+                                <br>
+                                <input type ="text" id = "fname"required>
+                                <br><br>
+                                <label class = lname> Last Name: </label>
+                                <br>
+                                <input type ="text" id = "lname" required>
+                                <br><br>
+                                <label class = email > Email Account: </label>
+                                <br>
+                                <input type ="text" id = "email" required>
+                                <br><br>
+                                <label class = "country">Country: </label>
+                                <br>    
+                            <select id= "country" name="country">
+                            <br>
+                                <option value ="Ph."> Philippines </option>
+                                <option value ="hb"> Hong Kong </option>
+                                <option value ="tai"> Taiwan </option>
+                                <option value ="jap"> Japan </option>
+                                </select> 
+                        <br><br>
+                            <label class = "message" required> Your message: </label>
+                        <br>
+                            <textarea type = "message" id = "mesaage required"></textarea>
+                        <br><br>
+                        <div>
+                            <input class="button" type="submit" value="SUBMIT"> 
+                            <input class="button" type="reset" value="CLEAR">  
+                        </div>
+                    </div> 
+                </form> 
+                <img src="images/logo.png" class="footerimg">
+            <footer>
+                <address>kabacan, North Cotabato,</address>
+                <address>Bonifacio Street</address>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a> 
+                    <a href="https://www.google.com/" class="fa fa-google"></a> 
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <p class="privacy">Privacy <span>2025 Copyright Charles. All rights reserved.</span></p> 
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

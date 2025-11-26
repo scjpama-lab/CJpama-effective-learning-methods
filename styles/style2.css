@@ -1,0 +1,359 @@
+/*margin of whole page*/
+.container{
+    max-width: 1048px;
+    margin: 40px auto 0; 
+    padding: 0 40px; 
+}
+/*body color*/
+body{
+  background-color: #f6f5f2;
+}
+/*navigation*/
+.navtop{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  font-family: 'Anton';
+  color: rgb(26, 73, 16);
+  font-size: 14px;
+  transition: 0.2s;
+}
+.navtop:link{
+  text-decoration: none;
+}
+.navtop:hover{
+  background-color:  #d8d8d874;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* images */
+.img{
+    display: flex;
+    justify-content: right;
+    width: 100px;
+}
+.img3{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+.img4{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  margin-top: 35px;
+}
+/*top navbar with script*/
+#navbar {
+  background-color: #f6f5f2;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+.nv{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Anton';
+    color: #164018;
+    font-size: 14px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+#navbar a:hover {
+  background-color: #d8d8d874;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* title for we are charles */
+.atitle{
+  font-size: 15px;
+  font-family: 'Inter';
+  color: #363636d8;
+  text-align: center;
+  margin-top: 50px;
+}
+/* title for the company */
+@media screen and (max-width: 767px) {
+    .aintro {
+        letter-spacing: -.64px;
+        font-size: 32px;
+    }
+}
+.aintro{
+  opacity: 1;
+  font-size: clamp(1rem, 4vw, 3rem);
+  font-family: 'Anton';
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.115;
+  margin-top: 1px;
+}
+/* charles today */
+.ctop{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Anton';
+  color: #010101;
+}
+.cpar{
+  max-width: 500px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'inter';
+  font-size: 15px;
+  text-align: center;
+  color:#363636d8;
+}
+/* table section */
+.table{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+}
+.tabn{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Anton';
+}
+.thead{
+  font-family: 'inter';
+  font-weight: 500;
+  font-size: 30px;
+  color: #5f5f5f;
+}
+.tdef{
+  font-family: 'inter';
+  color: #363636d8;
+  text-align: center;
+  height: 100px;
+}
+/* step section */
+.steps h1{
+  font-weight: 400;
+  font-size: 29px;
+  max-width: 550px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Anton';
+}
+.step123{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.st{
+  font-family:'Inter';
+  font-size: 15px;
+  text-align: left;
+}
+.stp{
+  background-color: #d76f0056;
+  color: #9a6c17;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 10px;
+}
+/* grid section */
+.grid-margin {
+    max-width: 900px;
+    margin: 40px auto 0; 
+    padding: 0 40px; 
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 220px 220px ;
+    gap: 2em;
+    justify-content: center;
+}
+@media (max-width: 600px){
+    .grid-container{
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(4, 200px) ;
+    }
+}
+.item{
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  color: #1d1e22;
+  background-color: #ffffff;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: 'TikTok Sans', sans-serif;
+  text-decoration: none;
+  display: flex;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.item:hover{
+  box-shadow: 10px 10px 5px rgba(158, 158, 158, 0.696);
+  background-color: #ffffff;
+  padding: 3px;
+}
+.boxt{
+  color: #000000;
+  font-weight: 500;
+  font-size: 5rem;
+  float: left;
+}
+.boxp{
+  color: #000000c0;
+  font-weight: 500;
+  font-size: 1.2rem;
+  float: left;
+}
+.samp{
+  font-size: 14px;
+  font-family: 'Anton';
+  text-align: center;
+  margin-top: 60px;
+  color: #000000;
+  background-color: #fdfdfcb7;
+  padding: 3px;
+  border-radius: 5px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* from container-samp to img-wrapper is for the sample projects of the company*/
+.container-samp {
+    max-width: 900px;
+    margin: 40px auto 0; 
+    padding: 0 40px; 
+}
+.grid-container-samp{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 300px 300px ;
+    gap: 2em;
+    justify-content: center;
+}
+@media (max-width: 600px){
+    .grid-container-samp{
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(4, 200px) ;
+    }
+}
+/* item2 tyle */
+.item2{
+    background-color: #d76f0056;
+    border-radius: 6px;
+    flex-direction: column;
+    font-family: 'TikTok Sans', sans-serif;
+    display: flex;
+    overflow: hidden;
+    transition: 0.3s; 
+}
+.item2:hover{
+  box-shadow: 10px 10px 5px rgba(158, 158, 158, 0.696);
+  background-color: #ffffff54;
+  padding: 3px;
+}
+.boxp2{
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 500;
+    color: #9a6c17;
+    text-align: left;
+    flex-shrink: 0; 
+}
+/* imagesampstyle */
+#imgsamp{
+    display: block;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 5px 5px 0 0;
+}
+.img-wrapper {
+    flex-grow: 1; 
+    min-height: 0; 
+}
+.how p{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'inter';
+  font-size: 17px;
+  color:#363636d8;
+  text-align: center;
+}
+.how h1{
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Anton';
+}
+.quotetow{
+  font-family: 'inter';
+  font-size: 15px;
+  color:#363636d8;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+/* Footer */
+footer {
+    color: rgb(1, 1, 1);
+    text-align: center;
+    padding: 10px;
+    font-family: 'inter';
+    font-weight: 300;
+    margin: 0 0;
+}
+
+.privacy {
+    font-size: 10px;
+}
+
+.privacy span {
+    margin-left: 20px;
+}
+
+/* Icons */
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 80%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Grouped identical social icon rules */
+.fa-youtube,
+.fa-facebook,
+.fa-google {
+  color: #606060c3;
+}
+.footerimg{
+  margin-top: 40px;
+  margin-bottom: 0;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
