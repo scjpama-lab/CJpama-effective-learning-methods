@@ -5,6 +5,7 @@ html {
 
 body {
     background-color: #f6f5f2;
+    line-height: 1.7;
 }
 
 /* Layout & Container */
@@ -134,7 +135,7 @@ body {
 }
 
 .introduction {
-    font-family: 'inter';
+    font-family: 'inter', Arial, sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     margin: 0 40px;
@@ -142,12 +143,20 @@ body {
 }
 
 .method1 {
-    font-family: 'inter';
+    font-family: 'inter', Arial, sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     margin: 0 40px 0 150px; 
     text-align: justify;
     font-weight: 150;
+    letter-spacing: normal;
+    max-width: 75ch;
+}
+.method1 h4 { 
+    font-size: 1.3rem;  
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #0a2c0c;  
 }
 /* bacground color for paragraph */
 .pback {
@@ -162,7 +171,7 @@ body {
     background-color: #e2e1d5cb;
     padding: 20px;
 }
-
+/* reference part */
 .reftitle {
     font-family: 'Anton';
 }
@@ -239,11 +248,14 @@ footer {
   display: block;
 }
 .video-container iframe {
+    max-width: 600px;
+    width: 80%; 
+    height: auto; 
+    aspect-ratio: 16 / 9; 
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
     margin-top: 20px;
 }
 .vid{
