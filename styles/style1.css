@@ -21,7 +21,7 @@ body {
     display: inline;
     margin-right: 20px;
     font-family: 'Anton';
-    color: rgb(26, 73, 16);
+    color: #1a4910;
     font-size: 14px;
     transition: 0.2s;
 }
@@ -87,7 +87,7 @@ body {
     float: left;
     font-size: 15px;
     padding: 11px 0;
-    border-top: 1px solid rgba(97, 97, 97, 0.15);
+    border-top: 1px solid #61616126;
     list-style-type: none;
 }
 .conbox {
@@ -163,11 +163,11 @@ body {
     background-color: #ffffffec;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(130, 130, 130, 0.634);
+    box-shadow: 5px 5px 5px #828282a2;
     transition: 0.3s;
 }
 .pback:hover{
-    box-shadow: 10px 10px 5px rgba(158, 158, 158, 0.696);
+    box-shadow: 10px 10px 5px #9e9e9eb1;
     background-color: #e2e1d5cb;
     padding: 20px;
 }
@@ -200,9 +200,9 @@ body {
     width: 500px;
 }
 
-/* --- Footer --- */
+/* Footer */
 footer {
-    color: rgb(1, 1, 1);
+    color: #010101;
     text-align: center;
     padding: 10px;
     font-family: 'inter';
@@ -263,7 +263,7 @@ footer {
     transition: 0.3s;
 }
 .vid:hover{
-    box-shadow: 10px 10px 5px rgba(158, 158, 158, 0.696);
+    box-shadow: 10px 10px 5px #9e9e9eb1;
     background-color: #ffffff;
     border-radius: 5px;
     padding: 20px;
@@ -274,6 +274,41 @@ footer {
     font-weight: 700;
     font-size: 20px;
     margin-top: 40px;
+}
+/* author section */
+.authorbox {
+    margin-top: 30px;
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
+    text-align: left;
+    background-color: #d76f0056;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 245px;
+    box-shadow: 5px 5px 5px #828282a2;
+}
+.authorimg {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.author {
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000f9;
+    margin: 0;
+}
+
+.author1 {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000f3;
+    margin: 0;
+    margin-top: 1px;
 }
 /* Media Queries */
 @media screen and (max-width: 600px) {
@@ -307,4 +342,24 @@ footer {
         justify-content: center;
         display: flex;
     }
+
+    .authorbox{
+        padding: 5px;
+        border-radius: 5px;
+        max-width: 180px;
+    }
+
+    .authorimg {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+    
+    .author1 {
+        font-size: 10px;
+    }
+
 }
